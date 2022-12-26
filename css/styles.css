@@ -18,7 +18,7 @@
 }
 
 .tdheader{
-  background="/resume/images/header.PNG"
+  background="/resume/images/header.PNG";
 }
 
 img{
@@ -139,7 +139,7 @@ input[type=submit]:hover {
 
 .body{
     
-    background-image: url('/resume/images/background.png');
+    background-image: url("/resume/images/background.png");
     background-color: #cccccc;
 }
 
