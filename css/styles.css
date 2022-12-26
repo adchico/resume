@@ -1,5 +1,5 @@
 body{
-  background-image: url("/resume/images/background.png");    
+  background-image: url("/resume/images/background.png");
 }
 
 
@@ -117,6 +117,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  color:#000;
 }
 
 input[type=submit] {
@@ -132,7 +133,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #e6ede7;
-  color:#000;
+  color:gray;
 }
 
 .formsdiv {
