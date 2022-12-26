@@ -107,6 +107,7 @@ text-align: center;
 .maindiv{
    width:90%;
    vertical-align: middle;
+   padding-left:10%
 }
 /* FORMS */
 input[type=text], select, textarea {
