@@ -25,7 +25,7 @@ body{
 }
 
 .tdheader{
-  background="/resume/images/header.PNG";
+  background-image: url("/resume/images/header.PNG");
 }
 
 img{
