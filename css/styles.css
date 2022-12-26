@@ -64,7 +64,8 @@ img{
     margin-top: 0px;
     padding-top: 0;
     padding-bottom: 50px;
-    background-color:rgba(100, 100, 100, 0.5);
+    background: transparent;
+    opacity: 0.97;
   }
 
 .experience{
@@ -141,7 +142,7 @@ body{
     display: block;
     margin: 8px;
     background-image: url("/resume/images/background.png");
-    background-color: #cccccc;
+     
 }
 
 #MainTable{
