@@ -21,7 +21,8 @@ body{
 }
 
 .tdheader{
-  background-color: #535854;
+  background: transparent;
+    opacity: 0.97;
 }
 
 img{
