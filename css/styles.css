@@ -139,13 +139,10 @@ input[type=submit]:hover {
 }
 
 body{
-    display: block;
-    margin: 8px;
-    background-image: url("/resume/images/background.png");
+ 
+  background-attachment: fixed; 
+  background-size: cover;
+  background-image: url("/resume/images/background.png");
      
 }
 
-#MainTable{
-  background: transparent;
-  opacity: 0.97;
-}
