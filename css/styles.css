@@ -1,5 +1,7 @@
 body{
-  background-image: url("/resume/images/background.png");
+  background-image: url("/images/background.png"); 
+  background-attachment: fixed;
+
 }
 
 
@@ -20,7 +22,9 @@ body{
    
 }
 
-
+.tdheader{
+  background-image: url("/images/header.PNG");
+}
 
 img{
     border-radius: 50%;
@@ -57,15 +61,15 @@ img{
     font-weight: bold;
     font-size: large;
     background: rgb(48, 47, 47);
-    
+     
   }
 
   *table{
     width: 100%;
-    margin-top: 0px;
-    padding-top: 0;
+    margin-top: 10px;
+    margin:30px;
+    padding-top: 20px;
     padding-bottom: 50px;
-    margin-bottom:50px;
     background: transparent;
     opacity: 0.97;
   }
@@ -77,6 +81,7 @@ img{
     font-style: italic;
     color: aqua;
     padding-bottom: 20px;
+    padding-top:40px;
     }
 
 .company{
@@ -88,6 +93,9 @@ img{
 
 *{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+        
+        font-weight: bold;
     
 }
 
@@ -105,35 +113,34 @@ text-align: center;
 
 .maindiv{
    width:90%;
-   vertical-align: middle;
-   padding-left:5%;
-   padding-right:5%;
+   
+   margin:50px;
 }
 /* FORMS */
 input[type=text], select, textarea {
-  width: 100%;
+  width: 70%;
   padding: 12px 10px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  color:#000;
+  color:#000
 }
 
-input[type=email], select, textarea {
-  width: 100%;
+input[type=email]{
+  width: 70%;
   padding: 12px 10px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  color:#000;
+  color:#000
 }
 
 input[type=submit] {
-  width: 100%;
+  width: 70%;
   background-color: #535854;
   color: white;
   padding: 14px 10px;
@@ -141,11 +148,13 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+
 }
 
 input[type=submit]:hover {
   background-color: #e6ede7;
-  color:gray;
+  color:#000;
+  color:#000
 }
 
 .formsdiv {
@@ -153,5 +162,3 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
-
